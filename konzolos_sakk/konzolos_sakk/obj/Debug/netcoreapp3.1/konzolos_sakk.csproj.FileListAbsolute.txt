@@ -1,0 +1,14 @@
+D:\Anti2\11.19 chess\konzolos_sakk\konzolos_sakk\bin\Debug\netcoreapp3.1\konzolos_sakk.exe
+D:\Anti2\11.19 chess\konzolos_sakk\konzolos_sakk\bin\Debug\netcoreapp3.1\konzolos_sakk.deps.json
+D:\Anti2\11.19 chess\konzolos_sakk\konzolos_sakk\bin\Debug\netcoreapp3.1\konzolos_sakk.runtimeconfig.json
+D:\Anti2\11.19 chess\konzolos_sakk\konzolos_sakk\bin\Debug\netcoreapp3.1\konzolos_sakk.runtimeconfig.dev.json
+D:\Anti2\11.19 chess\konzolos_sakk\konzolos_sakk\bin\Debug\netcoreapp3.1\konzolos_sakk.dll
+D:\Anti2\11.19 chess\konzolos_sakk\konzolos_sakk\bin\Debug\netcoreapp3.1\konzolos_sakk.pdb
+D:\Anti2\11.19 chess\konzolos_sakk\konzolos_sakk\obj\Debug\netcoreapp3.1\konzolos_sakk.csproj.AssemblyReference.cache
+D:\Anti2\11.19 chess\konzolos_sakk\konzolos_sakk\obj\Debug\netcoreapp3.1\konzolos_sakk.GeneratedMSBuildEditorConfig.editorconfig
+D:\Anti2\11.19 chess\konzolos_sakk\konzolos_sakk\obj\Debug\netcoreapp3.1\konzolos_sakk.AssemblyInfoInputs.cache
+D:\Anti2\11.19 chess\konzolos_sakk\konzolos_sakk\obj\Debug\netcoreapp3.1\konzolos_sakk.AssemblyInfo.cs
+D:\Anti2\11.19 chess\konzolos_sakk\konzolos_sakk\obj\Debug\netcoreapp3.1\konzolos_sakk.csproj.CoreCompileInputs.cache
+D:\Anti2\11.19 chess\konzolos_sakk\konzolos_sakk\obj\Debug\netcoreapp3.1\konzolos_sakk.dll
+D:\Anti2\11.19 chess\konzolos_sakk\konzolos_sakk\obj\Debug\netcoreapp3.1\konzolos_sakk.pdb
+D:\Anti2\11.19 chess\konzolos_sakk\konzolos_sakk\obj\Debug\netcoreapp3.1\konzolos_sakk.genruntimeconfig.cache
