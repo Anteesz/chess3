@@ -15,11 +15,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Anti2\\11.19 chess\\konzolos_sakk\\konzolos_sakk\\konzolos_sakk.csproj",
+      "projectUniqueName": "D:\\Anti2\\11.19 chess\\chess3\\konzolos_sakk\\konzolos_sakk\\konzolos_sakk.csproj",
       "projectName": "konzolos_sakk",
-      "projectPath": "D:\\Anti2\\11.19 chess\\konzolos_sakk\\konzolos_sakk\\konzolos_sakk.csproj",
+      "projectPath": "D:\\Anti2\\11.19 chess\\chess3\\konzolos_sakk\\konzolos_sakk\\konzolos_sakk.csproj",
       "packagesPath": "C:\\Users\\Suli\\.nuget\\packages\\",
-      "outputPath": "D:\\Anti2\\11.19 chess\\konzolos_sakk\\konzolos_sakk\\obj\\",
+      "outputPath": "D:\\Anti2\\11.19 chess\\chess3\\konzolos_sakk\\konzolos_sakk\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
