@@ -1,8 +1,8 @@
 ﻿using System.Collections.Generic;
 
-namespace ChessConsole.Pieces
+namespace ChessConsole.Babus
 {
-    public class Knight : Piece
+    public class Knight : Babu
     {
         /// <summary>
         /// Possible places where the knight can jump
@@ -18,7 +18,7 @@ namespace ChessConsole.Pieces
             }
         }
 
-        public Knight(Piece promote)
+        public Knight(Babu promote)
             : this(promote.Color)
         {
             Moved = promote.Moved;
@@ -30,7 +30,7 @@ namespace ChessConsole.Pieces
             {
                 foreach (ChessBoard.Cell cell in possibleCells)
                 {
-                    if (cell != null && (cell.Piece == null || cell.Piece.Color != Color))
+                    if (cell != null && (cell.Babu == null || cell.Babu.Color != Color))
                         yield return cell;
                 }
             }

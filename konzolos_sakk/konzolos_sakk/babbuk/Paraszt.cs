@@ -1,8 +1,8 @@
 ﻿using System.Collections.Generic;
 
-namespace ChessConsole.Pieces
+namespace ChessConsole.Babus
 {
-    public class Pawn : Piece
+    public class Pawn : Babu
     {
         /// <summary>
         /// Represents the forward direction moves of the pawn

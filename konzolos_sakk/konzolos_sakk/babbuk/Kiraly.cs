@@ -1,8 +1,8 @@
 ﻿using System.Collections.Generic;
 
-namespace ChessConsole.Pieces
+namespace ChessConsole.Babus
 {
-    public class King : Piece
+    public class King : Babu
     {
         /// <summary>
         /// Represents the directions of movement
@@ -62,14 +62,14 @@ namespace ChessConsole.Pieces
 
                 //Checks if the left rook is still in place and haven't moved yet
                 ChessBoard.Cell leftRookCell = Parent.Parent.GetCell(0, (Color == PlayerColor.White) ? 0 : 7);
-                if (leftRookCell.Piece == null || !(leftRookCell.Piece is Rook) || leftRookCell.Piece.Color != Color || leftRookCell.Piece.Moved)
+                if (leftRookCell.Babu == null || !(leftRookCell.Babu is Rook) || leftRookCell.Babu.Color != Color || leftRookCell.Babu.Moved)
                     canCastleLeft = false;
                 else
                 {
-                    //Checks pieces that could block the castle
+                    //Checks Babus that could block the castle
                     for (int i = 1; i <= 3; i++)
                     {
-                        if (Parent.Parent.GetCell(i, (Color == PlayerColor.White) ? 0 : 7).Piece != null)
+                        if (Parent.Parent.GetCell(i, (Color == PlayerColor.White) ? 0 : 7).Babu != null)
                             canCastleLeft = false;
                     }
                 }
@@ -79,14 +79,14 @@ namespace ChessConsole.Pieces
 
                 //Checks if the right rook is still in place and haven't moved yet
                 ChessBoard.Cell rightRookCell = Parent.Parent.GetCell(7, (Color == PlayerColor.White) ? 0 : 7);
-                if (rightRookCell.Piece == null || !(rightRookCell.Piece is Rook) || rightRookCell.Piece.Color != Color || rightRookCell.Piece.Moved)
+                if (rightRookCell.Babu == null || !(rightRookCell.Babu is Rook) || rightRookCell.Babu.Color != Color || rightRookCell.Babu.Moved)
                     canCastleRight = false;
                 else
                 {
-                    //Checks pieces that could block the castle
+                    //Checks Babus that could block the castle
                     for (int i = 5; i <= 6; i++)
                     {
-                        if (Parent.Parent.GetCell(i, (Color == PlayerColor.White) ? 0 : 7).Piece != null)
+                        if (Parent.Parent.GetCell(i, (Color == PlayerColor.White) ? 0 : 7).Babu != null)
                             canCastleRight = false;
                     }
                 }

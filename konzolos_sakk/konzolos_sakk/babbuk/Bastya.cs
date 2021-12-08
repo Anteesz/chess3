@@ -1,8 +1,8 @@
 ﻿using System.Collections.Generic;
 
-namespace ChessConsole.Pieces
+namespace ChessConsole.Babus
 {
-    public class Rook : Piece
+    public class Rook : Babu
     {
         /// <summary>
         /// Represents the directions of movement
@@ -18,7 +18,7 @@ namespace ChessConsole.Pieces
             }
         }
 
-        public Rook(Piece promote)
+        public Rook(Babu promote)
             : this(promote.Color)
         {
             Moved = promote.Moved;
